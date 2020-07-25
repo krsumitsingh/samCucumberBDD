@@ -1,7 +1,6 @@
 package com.guru99demo.helper.logger;
 
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+import org.apache.log4j.*;
 
 import com.guru99demo.helper.resource.ResourceHelper;
 
