@@ -3,6 +3,8 @@ package com.guru99demo.helper.logger;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
+import com.guru99demo.helper.resource.ResourceHelper;
+
 public class LoggerHelper {
 	
 	private static boolean root = false;
@@ -11,11 +13,12 @@ public class LoggerHelper {
 		if(root){
 			return Logger.getLogger(cls);
 		}
-		PropertyConfigurator.configure("D:\\Guru99-CucumberBDD\\resources\\configFile\\log4j.properties");
+		PropertyConfigurator.configure(ResourceHelper.getResourcePath("\\resources\\configFile\\log4j.properties"));
 		root=true;
 		return Logger.getLogger(cls);		
 	}
 
+	/****************************************************************************************
 	/**
 	 * TO test the logger method working or not
 	 * @param args
