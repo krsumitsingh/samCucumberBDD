@@ -52,8 +52,7 @@ public class WindowHelper {
 			}
 		}
 		log.info("switched to parent window");
-		driver.switchTo().window(parentWindow);
-		
+		driver.switchTo().window(parentWindow);	
 	} 
 	
 	/**
