@@ -67,15 +67,13 @@ public class WaitHelper {
 		return wait;		
 	}
 	
-/*	private Wait<WebDriver> getFluentWait(int timeOutInSeconds, int pollingEveryInMiliSec){
+    /*	private Wait<WebDriver> getFluentWait(int timeOutInSeconds, int pollingEveryInMiliSec){
 		Wait<WebDriver> fWait = new FluentWait<WebDriver>(driver)
 		.withTimeout((Duration.ofSeconds(timeOutInSeconds))
 		.pollingEvery(Duration.ofMillis(pollingEveryInMiliSec));
 		return fWait;
 	}*/
-	
-	
-	
+
 	/**
 	 * Wait For Element to be visible method
 	 * @param element
