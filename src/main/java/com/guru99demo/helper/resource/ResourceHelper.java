@@ -5,7 +5,7 @@ public class ResourceHelper {
 	public static String getResourcePath(String Path){
 		
 		String basePath = System.getProperty("user.dir");
-		return basePath + Path;
+		return basePath+"/"+Path;
 		
 	}
 
