@@ -125,6 +125,10 @@ public class JavaScriptHelper {
 		executeScript("document.body.style.zoom='100%'");
 	}
 	
+	/**
+	 * Click on the element method
+	 * @param element
+	 */
 	public void clickElement(WebElement element){
 		executeScript("arguments[0].click();", element);
 	}
