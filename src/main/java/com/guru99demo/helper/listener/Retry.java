@@ -11,7 +11,6 @@ public class Retry implements IRetryAnalyzer{
 	private int maxRetryCount = 3;
 	private Logger log = LoggerHelper.getLogger(Retry.class);
 
-	@Override
 	public boolean retry(ITestResult arg0) {	
 		if(retryCount<maxRetryCount){
 			log.info("retrying test "+arg0.getName()+" with status "+getResultStatusName(arg0.getStatus())+ " for the "+(retryCount+1)+ " times.");

@@ -4,6 +4,7 @@
 
 package com.guru99demo.helper.wait;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -56,7 +57,8 @@ public class WaitHelper {
 	 */
 	private WebDriverWait getWait(int timeOutInSeconds, int pollingEveryInMiliSec){
 		WebDriverWait wait = new WebDriverWait(driver,timeOutInSeconds );
-		wait.pollingEvery(pollingEveryInMiliSec, TimeUnit.SECONDS);
+		//wait.pollingEvery(pollingEveryInMiliSec, TimeUnit.SECONDS);
+		wait.pollingEvery(Duration.ofMillis(pollingEveryInMiliSec));
 		wait.ignoring(NoSuchElementException.class);
 		wait.ignoring(NoSuchFrameException.class);
 		wait.ignoring(ElementNotVisibleException.class);
