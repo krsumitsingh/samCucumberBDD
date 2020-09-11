@@ -661,3 +661,39 @@
 2020-09-11 11:09:525 INFO  TestBase :86 - **************loginTestFinished***************
 2020-09-11 11:09:598 INFO  TestBase :68 - **************loginTestStarted***************
 2020-09-11 11:09:601 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 11:09:737 INFO  TestBase :128 - Initialize Web driver: 892083096
+2020-09-11 11:09:749 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 11:09:767 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 11:09:364 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 11:09:08 INFO  ExcelHelper :50 - number of active rows are: 4----number of active columns in row: 3
+2020-09-11 11:09:08 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 11:09:139 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 11:09:193 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 11:09:193 INFO  LoginPage :59 - user id entered..
+2020-09-11 11:09:338 INFO  LoginPage :65 - password entered..
+2020-09-11 11:09:493 INFO  LoginPage :71 - login button clicked..
+2020-09-11 11:09:604 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 11:09:969 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 11:09:987 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 11:09:94 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 11:09:101 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 11:09:158 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 11:09:161 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 11:09:570 INFO  TestBase :128 - Initialize Web driver: 1750286943
+2020-09-11 11:09:573 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 11:09:580 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 11:09:464 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 11:09:117 INFO  ExcelHelper :50 - number of active rows are: 4----number of active columns in row: 3
+2020-09-11 11:09:126 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 11:09:219 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 11:09:238 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 11:09:240 INFO  LoginPage :59 - user id entered..
+2020-09-11 11:09:362 INFO  LoginPage :65 - password entered..
+2020-09-11 11:09:451 INFO  LoginPage :71 - login button clicked..
+2020-09-11 11:09:264 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 11:09:564 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 11:09:581 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 11:09:667 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 11:09:670 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 11:09:733 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 11:09:736 INFO  TestBase :86 - **************loginTestFinished***************
