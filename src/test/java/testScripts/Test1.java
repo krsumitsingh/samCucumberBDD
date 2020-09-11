@@ -11,21 +11,4 @@ public class Test1 extends TestBase {
 	public void login(){
 		AssertionHelper.makeTrue();	
 	}
-	@Test
-	public void login1(){
-		AssertionHelper.fail();
-	
-	}
-	
-	@Test
-	public void login2(){
-		AssertionHelper.makeTrue();	
-	}
-	
-	@Test
-	public void login3(){
-		AssertionHelper.fail();
-	}
-	
-
 }

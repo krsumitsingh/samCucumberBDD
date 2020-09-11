@@ -51,3 +51,613 @@
 2020-09-06 00:09:245 INFO  AssertionHelper :18 - making script pass....
 2020-09-06 00:09:385 INFO  AssertionHelper :18 - making script pass....
 2020-09-06 00:09:496 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 00:09:208 INFO  TestBase :110 - Initialize Web driver: 1569435561
+2020-09-07 00:09:243 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 00:09:250 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 00:09:896 INFO  TestBase :110 - Initialize Web driver: 156710276
+2020-09-07 00:09:899 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 00:09:906 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 00:09:238 INFO  TestBase :110 - Initialize Web driver: 156710276
+2020-09-07 00:09:242 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 00:09:248 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 00:09:919 INFO  TestBase :110 - Initialize Web driver: 156710276
+2020-09-07 00:09:921 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 00:09:929 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 00:09:628 INFO  TestBase :110 - Initialize Web driver: 53940034
+2020-09-07 00:09:631 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 00:09:638 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 01:09:620 INFO  TestBase :110 - Initialize Web driver: 156710276
+2020-09-07 01:09:623 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 01:09:629 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 01:09:101 INFO  TestBase :110 - Initialize Web driver: 156710276
+2020-09-07 01:09:104 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 01:09:111 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 01:09:41 INFO  TestBase :110 - Initialize Web driver: 156710276
+2020-09-07 01:09:44 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 01:09:50 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 01:09:981 INFO  TestBase :110 - Initialize Web driver: 156710276
+2020-09-07 01:09:983 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 01:09:990 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 01:09:611 INFO  TestBase :110 - Initialize Web driver: 156710276
+2020-09-07 01:09:614 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 01:09:620 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 11:09:170 INFO  TestBase :110 - Initialize Web driver: 156710276
+2020-09-07 11:09:173 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 11:09:317 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 11:09:788 INFO  TestBase :110 - Initialize Web driver: 156710276
+2020-09-07 11:09:791 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 11:09:798 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 23:09:85 INFO  TestBase :110 - Initialize Web driver: 2058135834
+2020-09-07 23:09:137 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 23:09:249 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 23:09:330 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:927 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:543 INFO  TestBase :110 - Initialize Web driver: 1215951090
+2020-09-07 23:09:544 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 23:09:547 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 23:09:566 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:672 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:77 INFO  TestBase :110 - Initialize Web driver: 35984028
+2020-09-07 23:09:80 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 23:09:89 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 23:09:128 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:605 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:300 INFO  TestBase :110 - Initialize Web driver: 1527214863
+2020-09-07 23:09:301 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 23:09:305 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 23:09:323 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:414 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:870 INFO  TestBase :110 - Initialize Web driver: 809383315
+2020-09-07 23:09:871 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 23:09:875 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 23:09:921 INFO  TestBase :110 - Initialize Web driver: 35984028
+2020-09-07 23:09:924 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 23:09:931 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 23:09:963 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:388 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:877 INFO  TestBase :110 - Initialize Web driver: 1527214863
+2020-09-07 23:09:877 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 23:09:881 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 23:09:898 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:987 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:823 INFO  TestBase :110 - Initialize Web driver: 809383315
+2020-09-07 23:09:823 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 23:09:827 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 23:09:550 INFO  TestBase :110 - Initialize Web driver: 35984028
+2020-09-07 23:09:553 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 23:09:560 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 23:09:591 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:20 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:525 INFO  TestBase :110 - Initialize Web driver: 1527214863
+2020-09-07 23:09:525 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 23:09:528 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 23:09:552 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:654 INFO  AssertionHelper :18 - making script pass....
+2020-09-07 23:09:334 INFO  TestBase :110 - Initialize Web driver: 809383315
+2020-09-07 23:09:335 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 23:09:339 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 23:09:876 INFO  TestBase :110 - Initialize Web driver: 67749199
+2020-09-07 23:09:879 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 23:09:886 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-07 23:09:750 INFO  TestBase :110 - Initialize Web driver: 892083096
+2020-09-07 23:09:753 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-07 23:09:760 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 00:09:489 INFO  TestBase :116 - Initialize Web driver: 35984028
+2020-09-08 00:09:492 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 00:09:500 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 00:09:535 INFO  AssertionHelper :18 - making script pass....
+2020-09-08 00:09:540 INFO  AssertionHelper :18 - making script pass....
+2020-09-08 00:09:536 INFO  TestBase :116 - Initialize Web driver: 1865201235
+2020-09-08 00:09:536 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 00:09:542 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 00:09:561 INFO  AssertionHelper :18 - making script pass....
+2020-09-08 00:09:354 INFO  AssertionHelper :18 - making script pass....
+2020-09-08 00:09:645 INFO  TestBase :116 - Initialize Web driver: 633131207
+2020-09-08 00:09:646 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 00:09:651 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 00:09:166 INFO  AssertionHelper :18 - making script pass....
+2020-09-08 00:09:199 INFO  AssertionHelper :18 - making script pass....
+2020-09-08 00:09:530 INFO  AssertionHelper :18 - making script pass....
+2020-09-08 00:09:545 INFO  AssertionHelper :18 - making script pass....
+2020-09-08 00:09:72 INFO  TestBase :116 - Initialize Web driver: 1896552614
+2020-09-08 00:09:73 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 00:09:81 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 00:09:398 INFO  ExtentListener :29 - Test1 Class Started..
+2020-09-08 00:09:413 INFO  ExtentListener :53 - login Test Started..
+2020-09-08 00:09:414 INFO  AssertionHelper :18 - making script pass....
+2020-09-08 00:09:420 INFO  ExtentListener :59 - login Test Passed..
+2020-09-08 00:09:438 INFO  ExtentListener :21 - Test1 Test Finished..
+2020-09-08 00:09:440 INFO  ExtentListener :29 - Test2 Class Started..
+2020-09-08 00:09:442 INFO  ExtentListener :53 - login4 Test Started..
+2020-09-08 00:09:446 ERROR ExtentListener :40 - login4 Test Failed..java.lang.AssertionError: expected [true] but found [false]
+2020-09-08 00:09:458 INFO  ExtentListener :21 - Test2 Test Finished..
+2020-09-08 00:09:459 INFO  ExtentListener :29 - TestScreenShot Class Started..
+2020-09-08 00:09:978 INFO  TestBase :116 - Initialize Web driver: 2091072548
+2020-09-08 00:09:979 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 00:09:988 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 00:09:14 INFO  ExtentListener :53 - testscreen1 Test Started..
+2020-09-08 00:09:290 INFO  ExtentListener :59 - testscreen1 Test Passed..
+2020-09-08 00:09:76 INFO  ExtentListener :53 - testscreen2 Test Started..
+2020-09-08 00:09:217 INFO  ExtentListener :59 - testscreen2 Test Passed..
+2020-09-08 00:09:951 INFO  ExtentListener :21 - TestScreenShot Test Finished..
+2020-09-08 00:09:449 INFO  ExtentListener :29 - Test1 Class Started..
+2020-09-08 00:09:957 INFO  TestBase :116 - Initialize Web driver: 2072724423
+2020-09-08 00:09:958 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 00:09:965 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 00:09:999 INFO  ExtentListener :53 - login Test Started..
+2020-09-08 00:09:00 INFO  AssertionHelper :18 - making script pass....
+2020-09-08 00:09:02 INFO  ExtentListener :59 - login Test Passed..
+2020-09-08 00:09:630 INFO  ExtentListener :21 - Test1 Test Finished..
+2020-09-08 00:09:633 INFO  ExtentListener :29 - Test2 Class Started..
+2020-09-08 00:09:926 INFO  TestBase :116 - Initialize Web driver: 332365138
+2020-09-08 00:09:927 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 00:09:931 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 00:09:951 INFO  ExtentListener :53 - login4 Test Started..
+2020-09-08 00:09:960 ERROR ExtentListener :40 - login4 Test Failed..java.lang.AssertionError: expected [true] but found [false]
+2020-09-08 00:09:331 INFO  ExtentListener :21 - Test2 Test Finished..
+2020-09-08 00:09:332 INFO  ExtentListener :29 - TestScreenShot Class Started..
+2020-09-08 00:09:735 INFO  TestBase :116 - Initialize Web driver: 166536076
+2020-09-08 00:09:735 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 00:09:739 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 00:09:755 INFO  ExtentListener :53 - testscreen1 Test Started..
+2020-09-08 00:09:340 INFO  ExtentListener :59 - testscreen1 Test Passed..
+2020-09-08 00:09:913 INFO  ExtentListener :53 - testscreen2 Test Started..
+2020-09-08 00:09:27 INFO  ExtentListener :59 - testscreen2 Test Passed..
+2020-09-08 00:09:402 INFO  ExtentListener :21 - TestScreenShot Test Finished..
+2020-09-08 00:09:204 INFO  ExtentListener :29 - Test1 Class Started..
+2020-09-08 00:09:428 INFO  TestBase :126 - Initialize Web driver: 2072724423
+2020-09-08 00:09:429 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 00:09:436 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 00:09:469 INFO  TestBase :67 - **************loginStarted***************
+2020-09-08 00:09:472 INFO  ExtentListener :53 - login Test Started..
+2020-09-08 00:09:472 INFO  AssertionHelper :18 - making script pass....
+2020-09-08 00:09:475 INFO  ExtentListener :59 - login Test Passed..
+2020-09-08 00:09:798 INFO  ExtentListener :21 - Test1 Test Finished..
+2020-09-08 00:09:799 INFO  ExtentListener :29 - Test2 Class Started..
+2020-09-08 00:09:209 INFO  TestBase :126 - Initialize Web driver: 332365138
+2020-09-08 00:09:209 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 00:09:213 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 00:09:234 INFO  TestBase :67 - **************login4Started***************
+2020-09-08 00:09:235 INFO  ExtentListener :53 - login4 Test Started..
+2020-09-08 00:09:239 ERROR ExtentListener :40 - login4 Test Failed..java.lang.AssertionError: expected [true] but found [false]
+2020-09-08 00:09:223 INFO  ExtentListener :21 - Test2 Test Finished..
+2020-09-08 00:09:224 INFO  ExtentListener :29 - TestScreenShot Class Started..
+2020-09-08 00:09:576 INFO  TestBase :126 - Initialize Web driver: 1166230227
+2020-09-08 00:09:577 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 00:09:581 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 00:09:596 INFO  TestBase :67 - **************testscreen1Started***************
+2020-09-08 00:09:597 INFO  ExtentListener :53 - testscreen1 Test Started..
+2020-09-08 00:09:823 INFO  ExtentListener :59 - testscreen1 Test Passed..
+2020-09-08 00:09:175 INFO  TestBase :67 - **************testscreen2Started***************
+2020-09-08 00:09:175 INFO  ExtentListener :53 - testscreen2 Test Started..
+2020-09-08 00:09:418 INFO  ExtentListener :59 - testscreen2 Test Passed..
+2020-09-08 00:09:404 INFO  ExtentListener :21 - TestScreenShot Test Finished..
+2020-09-08 00:09:996 INFO  ExtentListener :29 - Test1 Class Started..
+2020-09-08 00:09:432 INFO  TestBase :126 - Initialize Web driver: 2072724423
+2020-09-08 00:09:433 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 00:09:439 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 00:09:485 INFO  TestBase :67 - **************loginStarted***************
+2020-09-08 00:09:491 INFO  ExtentListener :53 - login Test Started..
+2020-09-08 00:09:492 INFO  AssertionHelper :18 - making script pass....
+2020-09-08 00:09:497 INFO  ExtentListener :59 - login Test Passed..
+2020-09-08 00:09:563 INFO  ExtentListener :21 - Test1 Test Finished..
+2020-09-08 00:09:565 INFO  ExtentListener :29 - Test2 Class Started..
+2020-09-08 00:09:925 INFO  TestBase :126 - Initialize Web driver: 1198197478
+2020-09-08 00:09:925 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 00:09:928 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 00:09:943 INFO  TestBase :67 - **************login4Started***************
+2020-09-08 00:09:944 INFO  ExtentListener :53 - login4 Test Started..
+2020-09-08 00:09:947 ERROR ExtentListener :40 - login4 Test Failed..java.lang.AssertionError: expected [true] but found [false]
+2020-09-08 00:09:961 INFO  ExtentListener :21 - Test2 Test Finished..
+2020-09-08 00:09:961 INFO  ExtentListener :29 - TestScreenShot Class Started..
+2020-09-08 00:09:248 INFO  TestBase :126 - Initialize Web driver: 1166230227
+2020-09-08 00:09:249 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 00:09:253 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 00:09:271 INFO  TestBase :67 - **************testscreen1Started***************
+2020-09-08 00:09:272 INFO  ExtentListener :53 - testscreen1 Test Started..
+2020-09-08 00:09:775 INFO  ExtentListener :59 - testscreen1 Test Passed..
+2020-09-08 00:09:834 INFO  TestBase :67 - **************testscreen2Started***************
+2020-09-08 00:09:835 INFO  ExtentListener :53 - testscreen2 Test Started..
+2020-09-08 00:09:983 INFO  ExtentListener :59 - testscreen2 Test Passed..
+2020-09-08 00:09:795 INFO  ExtentListener :21 - TestScreenShot Test Finished..
+2020-09-08 01:09:05 INFO  ExtentListener :29 - Test1 Class Started..
+2020-09-08 01:09:318 INFO  TestBase :125 - Initialize Web driver: 2072724423
+2020-09-08 01:09:319 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 01:09:325 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 01:09:355 INFO  TestBase :66 - **************loginStarted***************
+2020-09-08 01:09:358 INFO  ExtentListener :53 - login Test Started..
+2020-09-08 01:09:359 INFO  AssertionHelper :18 - making script pass....
+2020-09-08 01:09:361 INFO  ExtentListener :59 - login Test Passed..
+2020-09-08 01:09:469 INFO  ExtentListener :21 - Test1 Test Finished..
+2020-09-08 01:09:470 INFO  ExtentListener :29 - Test2 Class Started..
+2020-09-08 01:09:710 INFO  TestBase :125 - Initialize Web driver: 476579021
+2020-09-08 01:09:710 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 01:09:713 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 01:09:729 INFO  TestBase :66 - **************login4Started***************
+2020-09-08 01:09:730 INFO  ExtentListener :53 - login4 Test Started..
+2020-09-08 01:09:733 ERROR ExtentListener :40 - login4 Test Failed..java.lang.AssertionError: expected [true] but found [false]
+2020-09-08 01:09:731 INFO  ExtentListener :21 - Test2 Test Finished..
+2020-09-08 01:09:732 INFO  ExtentListener :29 - TestScreenShot Class Started..
+2020-09-08 01:09:83 INFO  TestBase :125 - Initialize Web driver: 1166230227
+2020-09-08 01:09:83 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 01:09:87 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 01:09:104 INFO  TestBase :66 - **************testscreen1Started***************
+2020-09-08 01:09:105 INFO  ExtentListener :53 - testscreen1 Test Started..
+2020-09-08 01:09:653 INFO  ExtentListener :59 - testscreen1 Test Passed..
+2020-09-08 01:09:703 INFO  TestBase :66 - **************testscreen2Started***************
+2020-09-08 01:09:749 INFO  ExtentListener :53 - testscreen2 Test Started..
+2020-09-08 01:09:706 INFO  ExtentListener :59 - testscreen2 Test Passed..
+2020-09-08 01:09:604 INFO  ExtentListener :21 - TestScreenShot Test Finished..
+2020-09-08 01:09:750 INFO  ExtentListener :29 - Test1 Class Started..
+2020-09-08 01:09:285 INFO  TestBase :126 - Initialize Web driver: 2072724423
+2020-09-08 01:09:286 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 01:09:293 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 01:09:323 INFO  TestBase :66 - **************loginStarted***************
+2020-09-08 01:09:328 INFO  ExtentListener :53 - login Test Started..
+2020-09-08 01:09:328 INFO  AssertionHelper :18 - making script pass....
+2020-09-08 01:09:331 INFO  ExtentListener :59 - login Test Passed..
+2020-09-08 01:09:331 INFO  TestBase :84 - **************loginFinished***************
+2020-09-08 01:09:972 INFO  ExtentListener :21 - Test1 Test Finished..
+2020-09-08 01:09:973 INFO  ExtentListener :29 - Test2 Class Started..
+2020-09-08 01:09:317 INFO  TestBase :126 - Initialize Web driver: 476579021
+2020-09-08 01:09:317 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 01:09:321 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 01:09:336 INFO  TestBase :66 - **************login4Started***************
+2020-09-08 01:09:337 INFO  ExtentListener :53 - login4 Test Started..
+2020-09-08 01:09:342 ERROR ExtentListener :40 - login4 Test Failed..java.lang.AssertionError: expected [true] but found [false]
+2020-09-08 01:09:629 INFO  TestBase :84 - **************login4Finished***************
+2020-09-08 01:09:324 INFO  ExtentListener :21 - Test2 Test Finished..
+2020-09-08 01:09:325 INFO  ExtentListener :29 - TestScreenShot Class Started..
+2020-09-08 01:09:602 INFO  TestBase :126 - Initialize Web driver: 1166230227
+2020-09-08 01:09:602 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-08 01:09:606 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-08 01:09:624 INFO  TestBase :66 - **************testscreen1Started***************
+2020-09-08 01:09:625 INFO  ExtentListener :53 - testscreen1 Test Started..
+2020-09-08 01:09:855 INFO  ExtentListener :59 - testscreen1 Test Passed..
+2020-09-08 01:09:856 INFO  TestBase :84 - **************testscreen1Finished***************
+2020-09-08 01:09:918 INFO  TestBase :66 - **************testscreen2Started***************
+2020-09-08 01:09:921 INFO  ExtentListener :53 - testscreen2 Test Started..
+2020-09-08 01:09:569 INFO  ExtentListener :59 - testscreen2 Test Passed..
+2020-09-08 01:09:570 INFO  TestBase :84 - **************testscreen2Finished***************
+2020-09-08 01:09:360 INFO  ExtentListener :21 - TestScreenShot Test Finished..
+2020-09-09 23:09:632 INFO  TestBase :126 - Initialize Web driver: 295304806
+2020-09-09 23:09:659 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-09 23:09:694 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-09 23:09:792 INFO  TestBase :66 - **************testLoginToApplicationStarted***************
+2020-09-09 23:09:53 INFO  TestBase :84 - **************testLoginToApplicationFinished***************
+2020-09-09 23:09:737 INFO  TestBase :126 - Initialize Web driver: 156710276
+2020-09-09 23:09:740 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-09 23:09:747 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-09 23:09:781 INFO  TestBase :66 - **************testLoginToApplicationStarted***************
+2020-09-09 23:09:947 INFO  TestBase :84 - **************testLoginToApplicationFinished***************
+2020-09-09 23:09:926 INFO  TestBase :127 - Initialize Web driver: 156710276
+2020-09-09 23:09:930 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-09 23:09:940 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-09 23:09:991 INFO  TestBase :67 - **************testLoginToApplicationStarted***************
+2020-09-09 23:09:272 INFO  LoginPage :53 - user id entered..
+2020-09-09 23:09:630 INFO  TestBase :85 - **************testLoginToApplicationFinished***************
+2020-09-10 00:09:362 INFO  TestBase :127 - Initialize Web driver: 1337655323
+2020-09-10 00:09:365 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-10 00:09:372 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-10 00:09:409 INFO  TestBase :67 - **************testLoginToApplicationStarted***************
+2020-09-10 00:09:400 INFO  LoginPage :53 - user id entered..
+2020-09-10 00:09:657 INFO  TestBase :85 - **************testLoginToApplicationFinished***************
+2020-09-10 00:09:86 INFO  TestBase :127 - Initialize Web driver: 156710276
+2020-09-10 00:09:89 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-10 00:09:96 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-10 00:09:125 INFO  TestBase :67 - **************testLoginToApplicationStarted***************
+2020-09-10 00:09:175 INFO  LoginPage :53 - user id entered..
+2020-09-10 00:09:322 INFO  LoginPage :59 - password entered..
+2020-09-10 00:09:424 INFO  LoginPage :65 - login button clicked..
+2020-09-10 00:09:617 INFO  TestBase :85 - **************testLoginToApplicationFinished***************
+2020-09-10 00:09:313 INFO  TestBase :127 - Initialize Web driver: 156710276
+2020-09-10 00:09:316 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-10 00:09:323 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-10 00:09:370 INFO  TestBase :67 - **************testLoginToApplicationStarted***************
+2020-09-10 00:09:550 INFO  LoginPage :53 - user id entered..
+2020-09-10 00:09:675 INFO  LoginPage :59 - password entered..
+2020-09-10 00:09:816 INFO  LoginPage :65 - login button clicked..
+2020-09-10 00:09:997 INFO  TestBase :85 - **************testLoginToApplicationFinished***************
+2020-09-10 00:09:389 INFO  TestBase :127 - Initialize Web driver: 156710276
+2020-09-10 00:09:392 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-10 00:09:399 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-10 00:09:436 INFO  TestBase :67 - **************testLoginToApplicationStarted***************
+2020-09-10 00:09:566 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-10 00:09:586 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-10 00:09:588 INFO  LoginPage :57 - user id entered..
+2020-09-10 00:09:698 INFO  LoginPage :63 - password entered..
+2020-09-10 00:09:814 INFO  LoginPage :69 - login button clicked..
+2020-09-10 00:09:211 INFO  TestBase :85 - **************testLoginToApplicationFinished***************
+2020-09-10 00:09:384 INFO  TestBase :127 - Initialize Web driver: 156710276
+2020-09-10 00:09:388 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-10 00:09:395 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-10 00:09:437 INFO  TestBase :67 - **************testLoginToApplicationStarted***************
+2020-09-10 00:09:498 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-10 00:09:519 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site111
+2020-09-10 00:09:815 INFO  TestBase :85 - **************testLoginToApplicationFinished***************
+2020-09-10 00:09:590 INFO  TestBase :127 - Initialize Web driver: 156710276
+2020-09-10 00:09:592 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-10 00:09:599 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-10 00:09:630 INFO  TestBase :67 - **************testLoginToApplicationStarted***************
+2020-09-10 00:09:33 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-10 00:09:52 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-10 00:09:54 INFO  LoginPage :57 - user id entered..
+2020-09-10 00:09:159 INFO  LoginPage :63 - password entered..
+2020-09-10 00:09:266 INFO  LoginPage :69 - login button clicked..
+2020-09-10 00:09:870 INFO  TestBase :85 - **************testLoginToApplicationFinished***************
+2020-09-10 22:09:587 INFO  ExtentListener :29 - LoginTest Class Started..
+2020-09-10 22:09:495 INFO  TestBase :127 - Initialize Web driver: 2106165633
+2020-09-10 22:09:503 INFO  WaitHelper :37 - Implicit Wait has been set to: 120
+2020-09-10 22:09:613 INFO  WaitHelper :47 - waiting for page to load: 100
+2020-09-10 22:09:704 INFO  TestBase :67 - **************testLoginToApplicationStarted***************
+2020-09-10 22:09:709 INFO  ExtentListener :53 - testLoginToApplication Test Started..
+2020-09-10 22:09:451 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-10 22:09:480 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-10 22:09:480 INFO  LoginPage :53 - user id entered..
+2020-09-10 22:09:686 INFO  LoginPage :59 - password entered..
+2020-09-10 22:09:806 INFO  LoginPage :65 - login button clicked..
+2020-09-10 22:09:858 INFO  ExtentListener :59 - testLoginToApplication Test Passed..
+2020-09-10 22:09:860 INFO  TestBase :85 - **************testLoginToApplicationFinished***************
+2020-09-10 22:09:579 INFO  ExtentListener :21 - LoginTest Test Finished..
+2020-09-10 22:09:712 INFO  ExcelHelper :50 - number of active rows are: 4----number of active columns in row: 3
+2020-09-11 00:09:726 INFO  TestBase :128 - Initialize Web driver: 2103763750
+2020-09-11 00:09:731 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 00:09:739 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 00:09:151 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 00:09:681 INFO  ExcelHelper :50 - number of active rows are: 1----number of active columns in row: 3
+2020-09-11 00:09:689 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 00:09:773 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 00:09:793 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 00:09:795 INFO  LoginPage :55 - user id entered..
+2020-09-11 00:09:905 INFO  LoginPage :61 - password entered..
+2020-09-11 00:09:999 INFO  LoginPage :67 - login button clicked..
+2020-09-11 00:09:499 INFO  JavaScriptHelper :84 - scroll down vertically
+2020-09-11 00:09:996 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 00:09:323 INFO  TestBase :128 - Initialize Web driver: 1750286943
+2020-09-11 00:09:326 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 00:09:333 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 00:09:433 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 00:09:966 INFO  ExcelHelper :50 - number of active rows are: 1----number of active columns in row: 3
+2020-09-11 00:09:981 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 00:09:91 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 00:09:122 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 00:09:122 INFO  LoginPage :55 - user id entered..
+2020-09-11 00:09:267 INFO  LoginPage :61 - password entered..
+2020-09-11 00:09:377 INFO  LoginPage :67 - login button clicked..
+2020-09-11 00:09:187 INFO  JavaScriptHelper :56 - scroll to element and click: Log out
+2020-09-11 00:09:208 INFO  JavaScriptHelper :47 - scroll to element: Log out
+2020-09-11 00:09:653 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 00:09:544 INFO  TestBase :128 - Initialize Web driver: 1337655323
+2020-09-11 00:09:547 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 00:09:554 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 00:09:691 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 00:09:284 INFO  ExcelHelper :50 - number of active rows are: 1----number of active columns in row: 3
+2020-09-11 00:09:292 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 00:09:377 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 00:09:395 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 00:09:398 INFO  LoginPage :55 - user id entered..
+2020-09-11 00:09:504 INFO  LoginPage :61 - password entered..
+2020-09-11 00:09:625 INFO  LoginPage :67 - login button clicked..
+2020-09-11 00:09:479 INFO  JavaScriptHelper :56 - scroll to element and click: Log out
+2020-09-11 00:09:515 INFO  JavaScriptHelper :47 - scroll to element: Log out
+2020-09-11 00:09:895 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 00:09:486 INFO  TestBase :128 - Initialize Web driver: 1750286943
+2020-09-11 00:09:489 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 00:09:496 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 00:09:742 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 00:09:326 INFO  ExcelHelper :50 - number of active rows are: 1----number of active columns in row: 3
+2020-09-11 00:09:333 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 00:09:429 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 00:09:451 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 00:09:453 INFO  LoginPage :55 - user id entered..
+2020-09-11 00:09:576 INFO  LoginPage :61 - password entered..
+2020-09-11 00:09:667 INFO  LoginPage :67 - login button clicked..
+2020-09-11 00:09:526 INFO  JavaScriptHelper :75 - scroll to element and click element: Log out
+2020-09-11 00:09:545 INFO  JavaScriptHelper :66 - scroll to element: Log out
+2020-09-11 00:09:941 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 00:09:223 INFO  TestBase :128 - Initialize Web driver: 1750286943
+2020-09-11 00:09:226 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 00:09:232 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 00:09:613 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 00:09:207 INFO  ExcelHelper :50 - number of active rows are: 1----number of active columns in row: 3
+2020-09-11 00:09:215 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 00:09:314 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 00:09:345 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 00:09:345 INFO  LoginPage :55 - user id entered..
+2020-09-11 00:09:468 INFO  LoginPage :61 - password entered..
+2020-09-11 00:09:587 INFO  LoginPage :67 - login button clicked..
+2020-09-11 00:09:425 INFO  JavaScriptHelper :75 - scroll to element and click element: Log out
+2020-09-11 00:09:445 INFO  JavaScriptHelper :66 - scroll to element: Log out
+2020-09-11 00:09:258 INFO  LoginPage :99 - clicked on logout link
+2020-09-11 00:09:950 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 00:09:713 INFO  TestBase :128 - Initialize Web driver: 1750286943
+2020-09-11 00:09:716 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 00:09:722 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 00:09:727 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 00:09:243 INFO  ExcelHelper :50 - number of active rows are: 1----number of active columns in row: 3
+2020-09-11 00:09:251 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 00:09:334 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 00:09:353 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 00:09:354 INFO  LoginPage :57 - user id entered..
+2020-09-11 00:09:468 INFO  LoginPage :63 - password entered..
+2020-09-11 00:09:554 INFO  LoginPage :69 - login button clicked..
+2020-09-11 00:09:414 INFO  JavaScriptHelper :75 - scroll to element and click element: Log out
+2020-09-11 00:09:433 INFO  JavaScriptHelper :66 - scroll to element: Log out
+2020-09-11 00:09:597 INFO  LoginPage :98 - clicked on logout link
+2020-09-11 00:09:108 INFO  TestBase :128 - Initialize Web driver: 1750286943
+2020-09-11 00:09:111 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 00:09:118 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 00:09:13 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 00:09:602 INFO  ExcelHelper :50 - number of active rows are: 1----number of active columns in row: 3
+2020-09-11 00:09:611 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 00:09:710 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 00:09:729 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 00:09:731 INFO  LoginPage :57 - user id entered..
+2020-09-11 00:09:821 INFO  LoginPage :63 - password entered..
+2020-09-11 00:09:942 INFO  LoginPage :69 - login button clicked..
+2020-09-11 00:09:644 INFO  JavaScriptHelper :75 - scroll to element and click element: Log out
+2020-09-11 00:09:667 INFO  JavaScriptHelper :66 - scroll to element: Log out
+2020-09-11 00:09:457 INFO  LoginPage :98 - clicked on logout link
+2020-09-11 00:09:224 INFO  TestBase :128 - Initialize Web driver: 1750286943
+2020-09-11 00:09:227 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 00:09:234 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 00:09:474 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 00:09:33 INFO  ExcelHelper :50 - number of active rows are: 1----number of active columns in row: 3
+2020-09-11 00:09:40 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 00:09:127 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 00:09:132 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 00:09:132 INFO  LoginPage :57 - user id entered..
+2020-09-11 00:09:254 INFO  LoginPage :63 - password entered..
+2020-09-11 00:09:347 INFO  LoginPage :69 - login button clicked..
+2020-09-11 00:09:115 INFO  JavaScriptHelper :75 - scroll to element and click element: Log out
+2020-09-11 00:09:137 INFO  JavaScriptHelper :66 - scroll to element: Log out
+2020-09-11 00:09:933 INFO  LoginPage :98 - clicked on logout link
+2020-09-11 00:09:828 INFO  TestBase :128 - Initialize Web driver: 1750286943
+2020-09-11 00:09:831 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 00:09:838 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 00:09:848 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 00:09:555 INFO  ExcelHelper :50 - number of active rows are: 1----number of active columns in row: 3
+2020-09-11 00:09:569 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 00:09:668 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 00:09:690 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 00:09:692 INFO  LoginPage :57 - user id entered..
+2020-09-11 00:09:831 INFO  LoginPage :63 - password entered..
+2020-09-11 00:09:955 INFO  LoginPage :69 - login button clicked..
+2020-09-11 00:09:715 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 01:09:223 INFO  TestBase :128 - Initialize Web driver: 1750286943
+2020-09-11 01:09:226 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 01:09:233 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 01:09:691 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 01:09:299 INFO  ExcelHelper :50 - number of active rows are: 1----number of active columns in row: 3
+2020-09-11 01:09:308 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 01:09:403 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 01:09:424 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 01:09:426 INFO  LoginPage :59 - user id entered..
+2020-09-11 01:09:551 INFO  LoginPage :65 - password entered..
+2020-09-11 01:09:657 INFO  LoginPage :71 - login button clicked..
+2020-09-11 01:09:408 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 01:09:242 INFO  TestBase :128 - Initialize Web driver: 1750286943
+2020-09-11 01:09:245 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 01:09:252 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 01:09:239 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 01:09:825 INFO  ExcelHelper :50 - number of active rows are: 1----number of active columns in row: 3
+2020-09-11 01:09:832 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 01:09:938 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 01:09:957 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 01:09:960 INFO  LoginPage :59 - user id entered..
+2020-09-11 01:09:62 INFO  LoginPage :65 - password entered..
+2020-09-11 01:09:190 INFO  LoginPage :71 - login button clicked..
+2020-09-11 01:09:700 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 01:09:676 INFO  TestBase :128 - Initialize Web driver: 1750286943
+2020-09-11 01:09:679 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 01:09:685 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 01:09:846 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 01:09:423 INFO  ExcelHelper :50 - number of active rows are: 1----number of active columns in row: 3
+2020-09-11 01:09:439 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 01:09:548 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 01:09:579 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 01:09:579 INFO  LoginPage :59 - user id entered..
+2020-09-11 01:09:699 INFO  LoginPage :65 - password entered..
+2020-09-11 01:09:828 INFO  LoginPage :71 - login button clicked..
+2020-09-11 01:09:658 INFO  JavaScriptHelper :75 - scroll to element and click element: Log out
+2020-09-11 01:09:679 INFO  JavaScriptHelper :66 - scroll to element: Log out
+2020-09-11 01:09:502 INFO  LoginPage :100 - clicked on logout link
+2020-09-11 01:09:93 INFO  TestBase :128 - Initialize Web driver: 1134013833
+2020-09-11 01:09:96 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 01:09:103 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 01:09:138 INFO  TestBase :68 - **************testLoginToApplicationStarted***************
+2020-09-11 01:09:397 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 01:09:416 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 01:09:419 INFO  LoginPage :59 - user id entered..
+2020-09-11 01:09:533 INFO  LoginPage :65 - password entered..
+2020-09-11 01:09:629 INFO  LoginPage :71 - login button clicked..
+2020-09-11 01:09:387 INFO  TestBase :86 - **************testLoginToApplicationFinished***************
+2020-09-11 01:09:795 INFO  TestBase :68 - **************loginStarted***************
+2020-09-11 01:09:795 INFO  AssertionHelper :18 - making script pass....
+2020-09-11 01:09:799 INFO  TestBase :86 - **************loginFinished***************
+2020-09-11 01:09:940 INFO  TestBase :68 - **************login4Started***************
+2020-09-11 01:09:948 INFO  TestBase :138 - driver is null..
+2020-09-11 01:09:949 INFO  TestBase :86 - **************login4Finished***************
+2020-09-11 01:09:04 INFO  TestBase :68 - **************testscreen1Started***************
+2020-09-11 01:09:07 INFO  TestBase :138 - driver is null..
+2020-09-11 01:09:07 INFO  TestBase :86 - **************testscreen1Finished***************
+2020-09-11 01:09:61 INFO  TestBase :68 - **************testscreen2Started***************
+2020-09-11 01:09:65 INFO  TestBase :138 - driver is null..
+2020-09-11 01:09:66 INFO  TestBase :86 - **************testscreen2Finished***************
+2020-09-11 01:09:939 INFO  TestBase :128 - Initialize Web driver: 1134013833
+2020-09-11 01:09:942 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 01:09:951 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 01:09:986 INFO  TestBase :68 - **************testLoginToApplicationStarted***************
+2020-09-11 01:09:225 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 01:09:247 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 01:09:249 INFO  LoginPage :59 - user id entered..
+2020-09-11 01:09:359 INFO  LoginPage :65 - password entered..
+2020-09-11 01:09:454 INFO  LoginPage :71 - login button clicked..
+2020-09-11 01:09:901 INFO  TestBase :86 - **************testLoginToApplicationFinished***************
+2020-09-11 01:09:213 INFO  TestBase :68 - **************loginStarted***************
+2020-09-11 01:09:214 INFO  AssertionHelper :18 - making script pass....
+2020-09-11 01:09:217 INFO  TestBase :86 - **************loginFinished***************
+2020-09-11 01:09:385 INFO  TestBase :68 - **************login4Started***************
+2020-09-11 01:09:391 INFO  TestBase :138 - driver is null..
+2020-09-11 01:09:393 INFO  TestBase :86 - **************login4Finished***************
+2020-09-11 01:09:457 INFO  TestBase :68 - **************testscreen1Started***************
+2020-09-11 01:09:459 INFO  TestBase :138 - driver is null..
+2020-09-11 01:09:459 INFO  TestBase :86 - **************testscreen1Finished***************
+2020-09-11 01:09:507 INFO  TestBase :68 - **************testscreen2Started***************
+2020-09-11 01:09:509 INFO  TestBase :138 - driver is null..
+2020-09-11 01:09:509 INFO  TestBase :86 - **************testscreen2Finished***************
+2020-09-11 02:09:43 INFO  TestBase :128 - Initialize Web driver: 1989132530
+2020-09-11 02:09:48 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 02:09:58 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 02:09:239 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsxTestData.xlsx
+2020-09-11 02:09:274 INFO  TestBase :68 - **************loginStarted***************
+2020-09-11 02:09:276 INFO  AssertionHelper :18 - making script pass....
+2020-09-11 02:09:281 INFO  TestBase :86 - **************loginFinished***************
+2020-09-11 02:09:577 INFO  TestBase :68 - **************login4Started***************
+2020-09-11 02:09:582 INFO  TestBase :138 - driver is null..
+2020-09-11 02:09:585 INFO  TestBase :86 - **************login4Finished***************
+2020-09-11 02:09:730 INFO  TestBase :68 - **************testscreen1Started***************
+2020-09-11 02:09:732 INFO  TestBase :138 - driver is null..
+2020-09-11 02:09:733 INFO  TestBase :86 - **************testscreen1Finished***************
+2020-09-11 02:09:771 INFO  TestBase :68 - **************testscreen2Started***************
+2020-09-11 02:09:772 INFO  TestBase :138 - driver is null..
+2020-09-11 02:09:773 INFO  TestBase :86 - **************testscreen2Finished***************
+2020-09-11 11:09:952 INFO  TestBase :128 - Initialize Web driver: 892083096
+2020-09-11 11:09:02 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 11:09:147 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 11:09:925 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsxTestData.xlsx
+2020-09-11 11:09:959 INFO  TestBase :128 - Initialize Web driver: 1750286943
+2020-09-11 11:09:961 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 11:09:969 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 11:09:669 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 11:09:307 INFO  ExcelHelper :50 - number of active rows are: 1----number of active columns in row: 3
+2020-09-11 11:09:322 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 11:09:708 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 11:09:773 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 11:09:827 INFO  LoginPage :59 - user id entered..
+2020-09-11 11:09:979 INFO  LoginPage :65 - password entered..
+2020-09-11 11:09:92 INFO  LoginPage :71 - login button clicked..
+2020-09-11 11:09:627 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 11:09:438 INFO  TestBase :128 - Initialize Web driver: 1750286943
+2020-09-11 11:09:450 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 11:09:468 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 11:09:713 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 11:09:552 INFO  ExcelHelper :50 - number of active rows are: 4----number of active columns in row: 4
+2020-09-11 11:09:547 INFO  TestBase :128 - Initialize Web driver: 1750286943
+2020-09-11 11:09:560 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-11 11:09:578 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-11 11:09:270 INFO  TestBase :171 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-11 11:09:887 INFO  ExcelHelper :50 - number of active rows are: 4----number of active columns in row: 3
+2020-09-11 11:09:907 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 11:09:07 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-11 11:09:54 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-11 11:09:54 INFO  LoginPage :59 - user id entered..
+2020-09-11 11:09:181 INFO  LoginPage :65 - password entered..
+2020-09-11 11:09:341 INFO  LoginPage :71 - login button clicked..
+2020-09-11 11:09:98 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 11:09:400 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 11:09:417 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 11:09:520 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 11:09:525 INFO  TestBase :86 - **************loginTestFinished***************
+2020-09-11 11:09:598 INFO  TestBase :68 - **************loginTestStarted***************
+2020-09-11 11:09:601 INFO  TestBase :86 - **************loginTestFinished***************

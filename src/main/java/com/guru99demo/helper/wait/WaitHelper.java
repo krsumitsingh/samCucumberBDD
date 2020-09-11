@@ -15,6 +15,8 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import com.guru99demo.helper.logger.LoggerHelper;
 
@@ -68,8 +70,8 @@ public class WaitHelper {
 	
     /*	private Wait<WebDriver> getFluentWait(int timeOutInSeconds, int pollingEveryInMiliSec){
 		Wait<WebDriver> fWait = new FluentWait<WebDriver>(driver)
-		.withTimeout((Duration.ofSeconds(timeOutInSeconds))
-		.pollingEvery(Duration.ofMillis(pollingEveryInMiliSec));
+				fWait.withTimeout((Duration.ofSeconds(timeOutInSeconds))
+						fWait.pollingEvery(Duration.ofMillis(pollingEveryInMiliSec)).ignoring(NoSuchElementException.class);
 		return fWait;
 	}*/
 
@@ -126,15 +128,16 @@ public class WaitHelper {
 		log.info("switched to frame: ");
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	/**
+	 * This method will make sure element is visible
+	 * 
+	 * @param element
+	 * @param timeOutInSeconds
+	 */
+	public void waitForElement(WebElement element, int timeOutInSeconds) {
+		log.info("waiting for :" + element.toString() + " for :" + timeOutInSeconds + " seconds");
+		WebDriverWait wait = new WebDriverWait(driver, timeOutInSeconds);
+		wait.until(ExpectedConditions.visibilityOf(element));
+		log.info("element is visible now");
+	}
 }

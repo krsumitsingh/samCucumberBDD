@@ -64,7 +64,7 @@ public class JavaScriptHelper {
 	 */
 	public void scrollIntoView(WebElement element){
 		log.info("scroll to element: "+element.getText());
-		executeScript("arguments[0]).scrollIntoView()",element);	
+		executeScript("arguments[0].scrollIntoView()",element);	
 	}
 
 	/**
@@ -82,7 +82,7 @@ public class JavaScriptHelper {
 	 */
 	public void scrollDownVertically(){
 		log.info("scroll down vertically");
-		executeScript("window.scrollTo(0,document.body.scrollHeight))");
+		executeScript("window.scrollTo(0,document.body.scrollHeight)");
 		
 	}
 	
@@ -91,7 +91,7 @@ public class JavaScriptHelper {
 	 */
 	public void scrollUpVertically(){
 		log.info("scroll up vertically");
-		executeScript("window.scrollTo(0,-document.body.scrollHeight))");
+		executeScript("window.scrollTo(0,-document.body.scrollHeight)");
 		
 	}
 	

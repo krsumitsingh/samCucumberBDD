@@ -1,8 +1,6 @@
 package com.guru99demo.helper.browserConfiguration.config;
 
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
 import java.util.Properties;
 import com.guru99demo.helper.browserConfiguration.BrowserType;
 import com.guru99demo.helper.resource.ResourceHelper;
@@ -13,58 +11,44 @@ public class PropertyReader implements ConfigReader {
 	
     private static FileInputStream file;
     
-	static{
+	public PropertyReader() {
 		
 		try {
 			file = new FileInputStream(ResourceHelper.getResourcePath("resources/configFile/config.properties"));
 			OR = new Properties();
-			try {
-				OR.load(file);
-			} catch (IOException e) {
-		     e.printStackTrace();
-			}
-		} catch (FileNotFoundException e) {
+			OR.load(file);			
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
 	}
 	
-
-	
 	public int getImpliciteWait() {
-		// TODO Auto-generated method stub
-		return 0;
+		return Integer.parseInt(OR.getProperty("IMPLICITWAIT"));
+		
 	}
 
-	
-
 	public int getExplicitWait() {
-		// TODO Auto-generated method stub
-		return 0;
+		return Integer.parseInt(OR.getProperty("EXPLICITWAIT"));
 	}
 
 	public int getPageLoadTime() {
-		// TODO Auto-generated method stub
-		return 0;
+		return Integer.parseInt(OR.getProperty("PAGELOADTIME"));
 	}
 
 	public BrowserType getBrowserType() {
-		// TODO Auto-generated method stub
-		return null;
+		return BrowserType.valueOf(OR.getProperty("browserType"));
 	}
 
-	public String getUrl() {
-		// TODO Auto-generated method stub
-		return null;
+	public String getUrl() {	
+		return OR.getProperty("Url");
 	}
 
 	public String getUserName() {
-		// TODO Auto-generated method stub
-		return null;
+		return OR.getProperty("userId");
 	}
 
 	public String getPassword() {
-		// TODO Auto-generated method stub
-		return null;
+		return OR.getProperty("password");
 	}
 	
 	
