@@ -1,33 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-	<test name="Test">
-		<classes>
-			<class name="testScripts.Test1" />
-			<class name="testScripts.Test2" />
-		</classes>
-	</test> <!-- Test -->
-	<test name="Test(failed)">
-		<classes>
-			<class name="testScripts.Test2">
-				<methods>
-					<include name="beforeClass" />
-					<include name="beforeMethod" />
-					<include name="login4" />
-					<include name="afterMethod" />
-					<include name="login6" />
-				</methods>
-			</class> <!-- testScripts.Test2 -->
-			<class name="testScripts.Test1">
-				<methods>
-					<include name="beforeClass" />
-					<include name="beforeMethod" />
-					<include name="login3" />
-					<include name="login1" />
-					<include name="beforeSuite" />
-					<include name="afterMethod" />
-				</methods>
-			</class> <!-- testScripts.Test1 -->
-		</classes>
-	</test> <!-- Test(failed) -->
+  <listeners>
+    <listener class-name="com.guru99demo.helper.listener.ExtentListener"/>
+  </listeners>
+  <test name="LoginTest">
+    <classes>
+      <class name="testScripts.loginPage.LoginTest"/>
+    </classes>
+  </test> <!-- LoginTest -->
+  <test name="Test1">
+    <classes>
+      <class name="testScripts.Test1"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <classes>
+      <class name="testScripts.Test2"/>
+    </classes>
+  </test> <!-- Test2 -->
+  <test name="TestScreenShot">
+    <classes>
+      <class name="testScripts.TestScreenShot"/>
+    </classes>
+  </test> <!-- TestScreenShot -->
+  <test name="LoginTest(failed)">
+    <classes>
+      <class name="testScripts.Test1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.Test1 -->
+      <class name="testScripts.loginPage.LoginTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="loginTestWithCredentials" invocation-numbers="1 2 3"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.loginPage.LoginTest -->
+      <class name="testScripts.Test2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.Test2 -->
+      <class name="testScripts.TestScreenShot">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.TestScreenShot -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+  <test name="Test2(failed)">
+    <classes>
+      <class name="testScripts.Test1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.Test1 -->
+      <class name="testScripts.loginPage.LoginTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.loginPage.LoginTest -->
+      <class name="testScripts.Test2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="login4"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.Test2 -->
+      <class name="testScripts.TestScreenShot">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- testScripts.TestScreenShot -->
+    </classes>
+  </test> <!-- Test2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

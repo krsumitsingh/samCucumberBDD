@@ -1,7 +1,6 @@
 package testScripts.loginPage;
 
 import org.apache.log4j.Logger;
-import org.openqa.selenium.WebElement;
 import org.testng.SkipException;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.DataProvider;
@@ -16,6 +15,7 @@ public class LoginTest extends TestBase {
 	private Logger log = LoggerHelper.getLogger(LoginTest.class);
 	LoginPage login;
 	public String loginpage_text="";
+	public String homepage_text="";
 	 
 	/*@Test(description="login test with valid credentials")
 	public void testLoginToApplication(){
@@ -24,8 +24,15 @@ public class LoginTest extends TestBase {
 		loginpage_text = login.verifyLoginPageText();
 		logExtentReport("login page text captured ..."+loginpage_text);	
 		login.loginToApplication(ObjectReader.reader.getUserName(),ObjectReader.reader.getPassword());	
+		try {
+			login.logout();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}*/
 	
+	 
 	@DataProvider(name="testData")
 	public Object[][] testData(){
 		Object[][] data = getExcelData("TestData.xlsx", "LoginDetails");
@@ -36,8 +43,8 @@ public class LoginTest extends TestBase {
 		getApplicationUrl(ObjectReader.reader.getUrl());
 		login = new LoginPage(driver);
 	}
-	@Test(dataProvider="testData")
-	public void loginTest(String userName, String password, String runMode){
+	@Test(priority=1,dataProvider="testData")	
+	public void loginTestWithCredentials(String userName, String password, String runMode){
 		
 		if(runMode.equalsIgnoreCase("n")){
 			throw new SkipException("Run mode for this set of data is marked N");
@@ -45,8 +52,22 @@ public class LoginTest extends TestBase {
 		loginpage_text = login.verifyLoginPageText();
 		logExtentReport("login page text captured ..."+loginpage_text);	
 		login.loginToApplication(userName, password);			
-		TestBase.logExtentReport("logout button clicked..");
-		//login.logout();
+		
+		try{
+			//homepage_text = login.verifyHomePageText();
+		
+				login.logout();
+			
+		}catch(Exception e){
+			log.info("homepage not visible.."+homepage_text);
+			TestBase.logExtentReport("homepage not visible.."+homepage_text);	
+			e.printStackTrace();
+		}
+		
+		
+		
 	}
+		
+		
 		
 }

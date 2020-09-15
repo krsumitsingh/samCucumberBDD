@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.aventstack.extentreports.Status;
 import com.guru99demo.helper.alert.AlertHelper;
 import com.guru99demo.helper.assertions.AssertionHelper;
 import com.guru99demo.helper.assertions.VerificationHelper;
@@ -23,7 +24,8 @@ public class LoginPage {
 	
 	private Logger log = LoggerHelper.getLogger(LoginPage.class);
 	
-	public String demo_site = "Demo Site";
+	public String login_site = "Demo Site";
+	public String homepage_site = "Guru99 Bank";
 	
 	WaitHelper waithelper;
 	JavaScriptHelper javascripthelper;
@@ -42,6 +44,9 @@ public class LoginPage {
 	@FindBy(xpath="//input[contains(@name,'btnLogin')]")
 	WebElement loginBtn;
 	
+	@FindBy(xpath="//h2[text()='Guru99 Bank']")
+	WebElement homepageTitle;
+	
 	@FindBy(xpath="//a[text()='Log out']")
 	WebElement logoutBtn;
 
@@ -51,6 +56,7 @@ public class LoginPage {
 		waithelper = new WaitHelper(driver);
 		javascripthelper = new JavaScriptHelper(driver);
 		verificationhelper = new VerificationHelper(driver);
+		alertHelper = new AlertHelper(driver);
 		TestBase.logExtentReport("Login Page Object Created");
 		
 	}
@@ -82,30 +88,53 @@ public class LoginPage {
 	
 	public String verifyLoginPageText(){
 		String text = verificationhelper.getTextFromElement(logindemosite);	
-		AssertionHelper.verifyText(text, demo_site);
+		AssertionHelper.verifyText(text, login_site);
 		return text;
 		
 	}
 	
-	public HomePage loginToApplication(String userid, String password){
-		enterUserID(userid);
-		enterPassword(password);
-		clickloginBtn(loginBtn);
-		return new HomePage(driver);
+	public String verifyHomePageText(){
+		String text = verificationhelper.getTextFromElement(homepageTitle);	
+		AssertionHelper.verifyText(text, homepage_site);
+		return text;
 		
 	}
 	
-	/*public void logout(){
+	public HomePage loginToApplication(String userid, String password){		
+		enterUserID(userid);
+		enterPassword(password);
+		clickloginBtn(loginBtn);
+		if(!alertHelper.isAlertPresent()){
+			return new HomePage(driver);	
+		}else{
+			String text=alertHelper.getAlertText();
+			TestBase.logExtentReport("alert text is.."+text);
+			alertHelper.acceptAlert();
+			return null;
+		}
+		
+		
+		//return new HomePage(driver);
+		
+	}
+	
+	public void logout(){
 		javascripthelper.scrollIntoViewAndClick(logoutBtn);
 		log.info("clicked on logout link");
-		//waithelper.setImplicitWait(ObjectReader.reader.getImpliciteWait(),TimeUnit.SECONDS );
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		//boolean status=alertHelper.isAlertPresent();
-		//AssertionHelper.updateTestStatus(status);
+		boolean status=alertHelper.isAlertPresent();
+		AssertionHelper.updateTestStatus(status);
+		String text=alertHelper.getAlertText();
+		TestBase.logExtentReport("alert text is.."+text);
 		alertHelper.acceptAlert();
 		waithelper.waitForElement(logindemosite, ObjectReader.reader.getExplicitWait());
+		TestBase.logExtentReport("logout button clicked..");
+	}
+	
+	
+	
+	/*public void logExtentReport(String s1){
+		TestBase.test.log(Status.INFO, s1);
 	}*/
-		
 	
 	
 	

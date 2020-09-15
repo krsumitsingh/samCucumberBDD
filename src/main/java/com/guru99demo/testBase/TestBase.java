@@ -95,7 +95,6 @@ public class TestBase {
 	}
 	
 	public WebDriver getBrowserObject(BrowserType btype) throws Exception {
-
 		try {
 			switch (btype) {
 			case Chrome:
