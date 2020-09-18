@@ -3145,3 +3145,43 @@ Session ID: 334e10bd0b337314a7608d2ae8672a12
 2020-09-19 00:09:937 WARN  ExtentListener :47 - loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N
 2020-09-19 00:09:938 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
 2020-09-19 00:09:583 INFO  ExtentListener :21 - LoginTest Test Finished..
+2020-09-19 01:09:641 INFO  ExtentListener :29 - LoginTest Class Started..
+2020-09-19 01:09:980 INFO  TestBase :127 - Initialize Web driver: 1763260873
+2020-09-19 01:09:981 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-19 01:09:989 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-19 01:09:98 INFO  TestBase :170 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-19 01:09:729 INFO  ExcelHelper :50 - number of active rows are: 4----number of active columns in row: 3
+2020-09-19 01:09:740 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-19 01:09:744 INFO  ExtentListener :53 - loginTestWithCredentials Test Started..
+2020-09-19 01:09:839 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-19 01:09:860 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-19 01:09:862 INFO  LoginPage :65 - user id entered..
+2020-09-19 01:09:995 INFO  LoginPage :71 - password entered..
+2020-09-19 01:09:94 INFO  LoginPage :77 - login button clicked..
+2020-09-19 01:09:04 INFO  AlertHelper :68 - alert not present: null
+2020-09-19 01:09:39 INFO  JavaScriptHelper :75 - scroll to element and click element: Log out
+2020-09-19 01:09:59 INFO  JavaScriptHelper :66 - scroll to element: Log out
+2020-09-19 01:09:188 INFO  LoginPage :123 - clicked on logout link
+2020-09-19 01:09:191 INFO  AlertHelper :63 - alert is present
+2020-09-19 01:09:193 INFO  AlertHelper :25 - switched to alert: org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert@200606de
+2020-09-19 01:09:197 INFO  AlertHelper :25 - switched to alert: org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert@750fe12e
+2020-09-19 01:09:203 INFO  AlertHelper :52 - alert text is: You Have Succesfully Logged Out!!
+2020-09-19 01:09:206 INFO  AlertHelper :25 - switched to alert: org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert@f8908f6
+2020-09-19 01:09:214 INFO  AlertHelper :34 - accept the alert
+2020-09-19 01:09:368 INFO  WaitHelper :138 - waiting for :[[ChromeDriver: chrome on WINDOWS (8ddc9e04c7aa6190d2cdd7a3c810e020)] -> xpath: //a[text()='Demo Site']] for :200 seconds
+2020-09-19 01:09:417 INFO  WaitHelper :141 - element is visible now
+2020-09-19 01:09:418 INFO  ExtentListener :59 - loginTestWithCredentials Test Passed..
+2020-09-19 01:09:419 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-19 01:09:705 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-19 01:09:707 INFO  ExtentListener :53 - loginTestWithCredentials Test Started..
+2020-09-19 01:09:713 WARN  ExtentListener :47 - loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N
+2020-09-19 01:09:719 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-19 01:09:808 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-19 01:09:809 INFO  ExtentListener :53 - loginTestWithCredentials Test Started..
+2020-09-19 01:09:810 WARN  ExtentListener :47 - loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N
+2020-09-19 01:09:811 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-19 01:09:869 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-19 01:09:870 INFO  ExtentListener :53 - loginTestWithCredentials Test Started..
+2020-09-19 01:09:871 WARN  ExtentListener :47 - loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N
+2020-09-19 01:09:873 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-19 01:09:631 INFO  ExtentListener :21 - LoginTest Test Finished..
