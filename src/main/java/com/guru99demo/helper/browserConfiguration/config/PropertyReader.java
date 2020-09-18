@@ -40,7 +40,10 @@ public class PropertyReader implements ConfigReader {
 	}
 
 	public String getUrl() {	
-		return OR.getProperty("Url");
+		if(System.getProperty("url")!=null){
+			return System.getProperty("url");		
+		}
+		return OR.getProperty("applicationUrl");
 	}
 
 	public String getUserName() {

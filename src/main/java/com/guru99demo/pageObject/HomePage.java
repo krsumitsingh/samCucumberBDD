@@ -19,6 +19,7 @@ public class HomePage {
 	HomePage(WebDriver driver){
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
+		//HomePage homepage = new HomePage(driver);
 		
 	}
 	

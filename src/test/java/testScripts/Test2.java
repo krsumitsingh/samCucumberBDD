@@ -12,4 +12,9 @@ public class Test2 extends TestBase {
 		AssertionHelper.fail();
 	}
 
+	@Test
+	public void login5(){
+		System.out.println("Man who knew too much");
+	}
+
 }

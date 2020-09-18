@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite">
-              <span class="suite-name border-failed">Suite</span>
+              <span class="suite-name border-skipped">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">4 tests</span>
+                    <span class="test-stats">2 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">8 methods, 1 failed,  3 skipped,  4 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Test2" hash-for-method="login4">login4</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
+                    <span class="method-stats">4 methods,  3 skipped,  1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -116,7 +102,7 @@
                     <div class="method-list-content skipped suite-Suite">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.loginPage.LoginTest" hash-for-method="loginTestWithCredentials(sumit, gUdudUb, n)">loginTestWithCredentials(sumit, gUdudUb, n)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.loginPage.LoginTest" hash-for-method="loginTestWithCredentials(sam, test@01, n)">loginTestWithCredentials(sam, test@01, n)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -126,7 +112,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.loginPage.LoginTest" hash-for-method="loginTestWithCredentials(sam, test@01, n)">loginTestWithCredentials(sam, test@01, n)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.loginPage.LoginTest" hash-for-method="loginTestWithCredentials(sumit, gUdudUb, n)">loginTestWithCredentials(sumit, gUdudUb, n)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
@@ -140,22 +126,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.Test1" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.loginPage.LoginTest" hash-for-method="loginTestWithCredentials(mngr283898, gUdudUb, y)">loginTestWithCredentials(mngr283898, gUdudUb, y)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.TestScreenShot" hash-for-method="testscreen1">testscreen1</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="testScripts.TestScreenShot" hash-for-method="testscreen2">testscreen2</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -170,26 +141,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">testScripts.Test2</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="login4">
-                  </a> <!-- login4 -->
-                  <span class="method-name">login4</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
-	at com.guru99demo.helper.assertions.AssertionHelper.fail(AssertionHelper.java:56)
-	at testScripts.Test2.login4(Test2.java:12)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -198,10 +149,10 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTestWithCredentials(sumit, gUdudUb, n)">
-                  </a> <!-- loginTestWithCredentials(sumit, gUdudUb, n) -->
+                  <a name="loginTestWithCredentials(sam, test@01, n)">
+                  </a> <!-- loginTestWithCredentials(sam, test@01, n) -->
                   <span class="method-name">loginTestWithCredentials</span>
-                  <span class="parameters">(sumit, gUdudUb, n)</span>
+                  <span class="parameters">(sam, test@01, n)</span>
                   <div class="stack-trace">org.testng.SkipException: Run mode for this set of data is marked N
 	at testScripts.loginPage.LoginTest.loginTestWithCredentials(LoginTest.java:50)
 ... Removed 24 stack frames
@@ -222,10 +173,10 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTestWithCredentials(sam, test@01, n)">
-                  </a> <!-- loginTestWithCredentials(sam, test@01, n) -->
+                  <a name="loginTestWithCredentials(sumit, gUdudUb, n)">
+                  </a> <!-- loginTestWithCredentials(sumit, gUdudUb, n) -->
                   <span class="method-name">loginTestWithCredentials</span>
-                  <span class="parameters">(sam, test@01, n)</span>
+                  <span class="parameters">(sumit, gUdudUb, n)</span>
                   <div class="stack-trace">org.testng.SkipException: Run mode for this set of data is marked N
 	at testScripts.loginPage.LoginTest.loginTestWithCredentials(LoginTest.java:50)
 ... Removed 24 stack frames
@@ -234,21 +185,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testScripts.Test1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="login">
-                  </a> <!-- login -->
-                  <span class="method-name">login</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -265,28 +201,6 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testScripts.TestScreenShot</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testscreen1">
-                  </a> <!-- testscreen1 -->
-                  <span class="method-name">testscreen1</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testscreen2">
-                  </a> <!-- testscreen2 -->
-                  <span class="method-name">testscreen2</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -298,6 +212,7 @@
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
   &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.guru99demo.helper.listener.RetryListener&quot;/&gt;
     &lt;listener class-name=&quot;com.guru99demo.helper.listener.ExtentListener&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test name=&quot;LoginTest&quot;&gt;
@@ -305,21 +220,21 @@
       &lt;class name=&quot;testScripts.loginPage.LoginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- LoginTest --&gt;
-  &lt;test name=&quot;Test1&quot;&gt;
+  &lt;test name=&quot;LoginTest(failed)&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;testScripts.Test1&quot;/&gt;
+      &lt;class name=&quot;testScripts.loginPage.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;beforeClass&quot;/&gt;
+          &lt;include name=&quot;beforeMethod&quot;/&gt;
+          &lt;include name=&quot;afterTest&quot;/&gt;
+          &lt;include name=&quot;loginTestWithCredentials&quot; invocation-numbers=&quot;1 2 3&quot;/&gt;
+          &lt;include name=&quot;beforeSuite&quot;/&gt;
+          &lt;include name=&quot;beforeTest&quot;/&gt;
+          &lt;include name=&quot;afterMethod&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testScripts.loginPage.LoginTest --&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test1 --&gt;
-  &lt;test name=&quot;Test2&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testScripts.Test2&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test2 --&gt;
-  &lt;test name=&quot;TestScreenShot&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;testScripts.TestScreenShot&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- TestScreenShot --&gt;
+  &lt;/test&gt; &lt;!-- LoginTest(failed) --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -334,13 +249,7 @@
                 <span class="test-name">LoginTest (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Test1 (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Test2 (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">TestScreenShot (1 class)</span>
+                <span class="test-name">LoginTest(failed) (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -366,44 +275,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(8);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testscreen2')
-data.setCell(0, 2, 'testScripts.TestScreenShot')
-data.setCell(0, 3, 6442);
+data.setCell(0, 1, 'loginTestWithCredentials')
+data.setCell(0, 2, 'testScripts.loginPage.LoginTest')
+data.setCell(0, 3, 4872);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginTestWithCredentials')
 data.setCell(1, 2, 'testScripts.loginPage.LoginTest')
-data.setCell(1, 3, 4829);
+data.setCell(1, 3, 5);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testscreen1')
-data.setCell(2, 2, 'testScripts.TestScreenShot')
-data.setCell(2, 3, 4628);
+data.setCell(2, 1, 'loginTestWithCredentials')
+data.setCell(2, 2, 'testScripts.loginPage.LoginTest')
+data.setCell(2, 3, 4);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'loginTestWithCredentials')
 data.setCell(3, 2, 'testScripts.loginPage.LoginTest')
-data.setCell(3, 3, 2);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginTestWithCredentials')
-data.setCell(4, 2, 'testScripts.loginPage.LoginTest')
-data.setCell(4, 3, 2);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'login')
-data.setCell(5, 2, 'testScripts.Test1')
-data.setCell(5, 3, 2);
-data.setCell(6, 0, 6)
-data.setCell(6, 1, 'loginTestWithCredentials')
-data.setCell(6, 2, 'testScripts.loginPage.LoginTest')
-data.setCell(6, 3, 1);
-data.setCell(7, 0, 7)
-data.setCell(7, 1, 'login4')
-data.setCell(7, 2, 'testScripts.Test2')
-data.setCell(7, 3, 1);
+data.setCell(3, 3, 4);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -421,7 +314,7 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">loginTestWithCredentials(sumit, gUdudUb, n)</span>
+              <span class="reporter-method-name">loginTestWithCredentials(sam, test@01, n)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N</span>
               </div> <!-- reporter-method-output-div -->
@@ -433,37 +326,9 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">loginTestWithCredentials(sam, test@01, n)</span>
+              <span class="reporter-method-name">loginTestWithCredentials(sumit, gUdudUb, n)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">login</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">login Test Passed..</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">login4</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">login4 Test Failed..java.lang.AssertionError: expected [true] but found [false]</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testscreen2</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='D:\Guru99-CucumberBDD\resources\screenShots\second screen_12_09_2020_01_21_43.png'><img src='D:\Guru99-CucumberBDD\resources\screenShots\second screen_12_09_2020_01_21_43.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">testscreen2 Test Passed..</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testscreen1</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">captureScreen method called</span>
-                <span class="reporter-method-output"><a href='D:\Guru99-CucumberBDD\resources\screenShots\first screen_12_09_2020_01_21_36.png'><img src='D:\Guru99-CucumberBDD\resources\screenShots\first screen_12_09_2020_01_21_36.png'height='100' width='100'/></a></span>
-                <span class="reporter-method-output">testscreen1 Test Passed..</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -481,156 +346,70 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testScripts.TestScreenShot</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testScripts.loginPage.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">beforeSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testScripts.loginPage.LoginTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest</span>
-                <span class="method-start">185 ms</span>
+                <span class="method-start">186 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">6422 ms</span>
+                <span class="method-start">6764 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void testScripts.loginPage.LoginTest.loginTestWithCredentials(java.lang.String,java.lang.Stri...)</span>
-                <span class="method-start">10221 ms</span>
+                <span class="method-start">15801 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTestWithCredentials(mngr283898, gUdudUb, y)</span>
-                <span class="method-start">10222 ms</span>
+                <span class="method-start">15802 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=loginTestWithCredentials status=SUCCESS method=LoginTest.loginTestWithCredentials(j...)</span>
-                <span class="method-start">15052 ms</span>
+                <span class="method-start">20675 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void testScripts.loginPage.LoginTest.loginTestWithCredentials(java.lang.String,java.lang.Stri...)</span>
-                <span class="method-start">15313 ms</span>
+                <span class="method-start">20982 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTestWithCredentials(sumit, gUdudUb, n)</span>
-                <span class="method-start">15314 ms</span>
+                <span class="method-start">20983 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=loginTestWithCredentials status=SKIP method=LoginTest.loginTestWithCredentials(java...)</span>
-                <span class="method-start">15321 ms</span>
+                <span class="method-start">20990 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void testScripts.loginPage.LoginTest.loginTestWithCredentials(java.lang.String,java.lang.Stri...)</span>
-                <span class="method-start">15400 ms</span>
+                <span class="method-start">21100 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTestWithCredentials(mngr283898, intel@01, n)</span>
-                <span class="method-start">15401 ms</span>
+                <span class="method-start">21101 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=loginTestWithCredentials status=SKIP method=LoginTest.loginTestWithCredentials(java...)</span>
-                <span class="method-start">15409 ms</span>
+                <span class="method-start">21110 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void testScripts.loginPage.LoginTest.loginTestWithCredentials(java.lang.String,java.lang.Stri...)</span>
-                <span class="method-start">15477 ms</span>
+                <span class="method-start">21182 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginTestWithCredentials(sam, test@01, n)</span>
-                <span class="method-start">15477 ms</span>
+                <span class="method-start">21183 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=loginTestWithCredentials status=SKIP method=LoginTest.loginTestWithCredentials(java...)</span>
-                <span class="method-start">15483 ms</span>
+                <span class="method-start">21191 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">15544 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testScripts.Test1</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">16249 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void testScripts.Test1.login())</span>
-                <span class="method-start">21479 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">21479 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=login status=SUCCESS method=Test1.login()[pri:0, instance:testScripts.Test1@4439f31...)</span>
-                <span class="method-start">21483 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">21522 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testScripts.Test2</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">22210 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void testScripts.Test2.login4())</span>
-                <span class="method-start">27486 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">login4</span>
-                <span class="method-start">27486 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=login4 status=FAILURE method=Test2.login4()[pri:0, instance:testScripts.Test2@643b1...)</span>
-                <span class="method-start">27488 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">27805 ms</span>
-              </div> <!-- configuration-test after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">testScripts.TestScreenShot</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest</span>
-                <span class="method-start">28451 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void testScripts.TestScreenShot.testscreen1())</span>
-                <span class="method-start">33741 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testscreen1</span>
-                <span class="method-start">33741 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=testscreen1 status=SUCCESS method=TestScreenShot.testscreen1()[pri:0, instance:test...)</span>
-                <span class="method-start">38370 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforeMethod(public void testScripts.TestScreenShot.testscreen2())</span>
-                <span class="method-start">38438 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">testscreen2</span>
-                <span class="method-start">38439 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=testscreen2 status=SUCCESS method=TestScreenShot.testscreen2()[pri:0, instance:test...)</span>
-                <span class="method-start">44884 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-test after">
-                <span class="method-name">afterTest</span>
-                <span class="method-start">44943 ms</span>
+                <span class="method-start">21262 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
