@@ -10,19 +10,5 @@
       <class name="testScripts.loginPage.LoginTest"></class>
     </classes>
   </test> 
-   <!-- <test name="Test1">
-        <classes>
-            <class name="testScripts.Test1"></class>
-        </classes>
-    </test>
-     <test name="Test2">
-        <classes>
-            <class name="testScripts.Test2"></class>
-        </classes>
-    </test>
-     <test name="TestScreenShot">
-        <classes>
-            <class name="testScripts.TestScreenShot"></class>
-        </classes>
-    </test> -->
+  
 </suite>
