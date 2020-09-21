@@ -90,6 +90,8 @@ public class TestBase {
 	@AfterTest
 	public void afterTest() throws Exception{
 		if(driver!=null){
+			log.info("chrome browser closed..");
+			test.log(Status.INFO, "chrome browser closed..");
 			driver.quit();
 		}
 	}
