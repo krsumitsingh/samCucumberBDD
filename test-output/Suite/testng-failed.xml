@@ -2,7 +2,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <listeners>
-    <listener class-name="com.guru99demo.helper.listener.RetryListener"/>
     <listener class-name="com.guru99demo.helper.listener.ExtentListener"/>
   </listeners>
   <test name="LoginTest">
