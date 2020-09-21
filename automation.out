@@ -3265,3 +3265,93 @@ Session ID: 334e10bd0b337314a7608d2ae8672a12
 2020-09-21 23:09:35 WARN  ExtentListener :47 - loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N
 2020-09-21 23:09:37 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
 2020-09-21 23:09:140 INFO  ExtentListener :21 - LoginTest Test Finished..
+2020-09-22 00:09:486 INFO  TestBase :127 - Initialize Web driver: 1988644427
+2020-09-22 00:09:489 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-22 00:09:498 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-22 00:09:304 INFO  TestBase :170 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-22 00:09:908 INFO  ExcelHelper :50 - number of active rows are: 4----number of active columns in row: 3
+2020-09-22 00:09:932 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 00:09:40 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-22 00:09:61 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-22 00:09:64 INFO  LoginPage :65 - user id entered..
+2020-09-22 00:09:175 INFO  LoginPage :71 - password entered..
+2020-09-22 00:09:262 INFO  LoginPage :77 - login button clicked..
+2020-09-22 00:09:907 INFO  AlertHelper :68 - alert not present: null
+2020-09-22 00:09:951 INFO  JavaScriptHelper :75 - scroll to element and click element: Log out
+2020-09-22 00:09:05 INFO  JavaScriptHelper :66 - scroll to element: Log out
+2020-09-22 00:09:779 INFO  LoginPage :123 - clicked on logout link
+2020-09-22 00:09:782 INFO  AlertHelper :63 - alert is present
+2020-09-22 00:09:785 INFO  AlertHelper :25 - switched to alert: org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert@503d56b5
+2020-09-22 00:09:789 INFO  AlertHelper :25 - switched to alert: org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert@72bca894
+2020-09-22 00:09:794 INFO  AlertHelper :52 - alert text is: You Have Succesfully Logged Out!!
+2020-09-22 00:09:796 INFO  AlertHelper :25 - switched to alert: org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert@433ffad1
+2020-09-22 00:09:805 INFO  AlertHelper :34 - accept the alert
+2020-09-22 00:09:109 INFO  WaitHelper :138 - waiting for :[[ChromeDriver: chrome on WINDOWS (59bdff8fbd457c482def82df2e2beef3)] -> xpath: //a[text()='Demo Site']] for :200 seconds
+2020-09-22 00:09:157 INFO  WaitHelper :141 - element is visible now
+2020-09-22 00:09:157 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 00:09:462 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 00:09:468 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 00:09:551 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 00:09:553 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 00:09:631 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 00:09:634 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 00:09:975 INFO  TestBase :127 - Initialize Web driver: 1988644427
+2020-09-22 00:09:978 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-22 00:09:986 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-22 00:09:857 INFO  TestBase :170 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-22 00:09:476 INFO  ExcelHelper :50 - number of active rows are: 4----number of active columns in row: 3
+2020-09-22 00:09:494 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 00:09:603 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-22 00:09:624 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-22 00:09:626 INFO  LoginPage :65 - user id entered..
+2020-09-22 00:09:723 INFO  LoginPage :71 - password entered..
+2020-09-22 00:09:802 INFO  LoginPage :77 - login button clicked..
+2020-09-22 00:09:451 INFO  AlertHelper :68 - alert not present: null
+2020-09-22 00:09:491 INFO  JavaScriptHelper :75 - scroll to element and click element: Log out
+2020-09-22 00:09:514 INFO  JavaScriptHelper :66 - scroll to element: Log out
+2020-09-22 00:09:271 INFO  LoginPage :123 - clicked on logout link
+2020-09-22 00:09:274 INFO  AlertHelper :63 - alert is present
+2020-09-22 00:09:276 INFO  AlertHelper :25 - switched to alert: org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert@324dcd31
+2020-09-22 00:09:281 INFO  AlertHelper :25 - switched to alert: org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert@503d56b5
+2020-09-22 00:09:286 INFO  AlertHelper :52 - alert text is: You Have Succesfully Logged Out!!
+2020-09-22 00:09:289 INFO  AlertHelper :25 - switched to alert: org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert@72bca894
+2020-09-22 00:09:296 INFO  AlertHelper :34 - accept the alert
+2020-09-22 00:09:927 INFO  WaitHelper :138 - waiting for :[[ChromeDriver: chrome on WINDOWS (1394027ff87592f3d4adb42ce6e3ae79)] -> xpath: //a[text()='Demo Site']] for :200 seconds
+2020-09-22 00:09:979 INFO  WaitHelper :141 - element is visible now
+2020-09-22 00:09:980 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 00:09:251 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 00:09:257 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 00:09:361 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 00:09:363 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 00:09:416 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 00:09:418 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 00:09:95 INFO  TestBase :127 - Initialize Web driver: 1988644427
+2020-09-22 00:09:100 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-22 00:09:110 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-22 00:09:422 INFO  TestBase :170 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-22 00:09:02 INFO  ExcelHelper :50 - number of active rows are: 4----number of active columns in row: 3
+2020-09-22 00:09:20 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 00:09:156 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-22 00:09:182 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-22 00:09:184 INFO  LoginPage :65 - user id entered..
+2020-09-22 00:09:292 INFO  LoginPage :71 - password entered..
+2020-09-22 00:09:382 INFO  LoginPage :77 - login button clicked..
+2020-09-22 00:09:377 INFO  AlertHelper :68 - alert not present: null
+2020-09-22 00:09:507 INFO  JavaScriptHelper :75 - scroll to element and click element: Log out
+2020-09-22 00:09:544 INFO  JavaScriptHelper :66 - scroll to element: Log out
+2020-09-22 00:09:348 INFO  LoginPage :123 - clicked on logout link
+2020-09-22 00:09:351 INFO  AlertHelper :63 - alert is present
+2020-09-22 00:09:355 INFO  AlertHelper :25 - switched to alert: org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert@503d56b5
+2020-09-22 00:09:359 INFO  AlertHelper :25 - switched to alert: org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert@72bca894
+2020-09-22 00:09:364 INFO  AlertHelper :52 - alert text is: You Have Succesfully Logged Out!!
+2020-09-22 00:09:366 INFO  AlertHelper :25 - switched to alert: org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert@433ffad1
+2020-09-22 00:09:373 INFO  AlertHelper :34 - accept the alert
+2020-09-22 00:09:747 INFO  WaitHelper :138 - waiting for :[[ChromeDriver: chrome on WINDOWS (5049ef765e67fd2d3bc59fa8998e95c4)] -> xpath: //a[text()='Demo Site']] for :200 seconds
+2020-09-22 00:09:796 INFO  WaitHelper :141 - element is visible now
+2020-09-22 00:09:797 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 00:09:125 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 00:09:131 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 00:09:229 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 00:09:230 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 00:09:282 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 00:09:290 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************

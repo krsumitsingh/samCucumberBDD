@@ -32,17 +32,18 @@ public class LoginTest extends TestBase {
 		}
 	}*/
 	
-	 
+	@BeforeClass
+	public void beforeClass(){
+		getApplicationUrl(ObjectReader.reader.getUrl());
+		login = new LoginPage(driver);
+	} 
+	
 	@DataProvider(name="testData")
 	public Object[][] testData(){
 		Object[][] data = getExcelData("TestData.xlsx", "LoginDetails");
 		return data;
 	}
-	@BeforeClass
-	public void beforeClass(){
-		getApplicationUrl(ObjectReader.reader.getUrl());
-		login = new LoginPage(driver);
-	}
+	
 	@Test(priority=1,dataProvider="testData")	
 	public void loginTestWithCredentials(String userName, String password, String runMode){
 		
