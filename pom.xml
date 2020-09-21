@@ -90,31 +90,32 @@
 				</configuration>
 			</plugin>
 
-			<plugin>
+			<!-- <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.19.1</version>
 				<configuration>
 					<systemPropertyVariables>
-						<!-- <property> 
+						<property> 
 							<name>userName</name> 
 							<value>${userName}</value> 
 						</property> 
 						<property> 
 							<name>password</name> 
 							<value>${password}</value> 
-						</property>  -->
+						</property> 
 						<property> 
 							<name>url</name> 
 							<value>${url}</value> 
 						</property>
 					</systemPropertyVariables>
 					<suiteXmlFiles>
-						<!-- <suiteXmlFile>resources/testNGSuite/testSuite.xml</suiteXmlFile> -->
+						<suiteXmlFile>resources/testNGSuite/testSuite.xml</suiteXmlFile>
 						<suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
-			</plugin>
+			</plugin> -->
+			
 		</plugins>
 	</build>
 </project>
