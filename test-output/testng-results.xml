@@ -1,52 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="3" failed="0" total="4" passed="1">
   <reporter-output>
-    <line>
-      <![CDATA[LoginTest Class Started..]]>
-    </line>
-    <line>
-      <![CDATA[loginTestWithCredentials Test Started..]]>
-    </line>
-    <line>
-      <![CDATA[loginTestWithCredentials Test Passed..]]>
-    </line>
-    <line>
-      <![CDATA[loginTestWithCredentials Test Started..]]>
-    </line>
-    <line>
-      <![CDATA[loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N]]>
-    </line>
-    <line>
-      <![CDATA[loginTestWithCredentials Test Started..]]>
-    </line>
-    <line>
-      <![CDATA[loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N]]>
-    </line>
-    <line>
-      <![CDATA[loginTestWithCredentials Test Started..]]>
-    </line>
-    <line>
-      <![CDATA[loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N]]>
-    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="16964" started-at="2020-09-21T18:22:25Z" finished-at="2020-09-21T18:22:42Z">
+  <suite name="Default suite" duration-ms="15593" started-at="2020-09-21T18:40:13Z" finished-at="2020-09-21T18:40:29Z">
     <groups>
     </groups>
-    <test name="LoginTest" duration-ms="16964" started-at="2020-09-21T18:22:25Z" finished-at="2020-09-21T18:22:42Z">
+    <test name="Default test" duration-ms="15593" started-at="2020-09-21T18:40:13Z" finished-at="2020-09-21T18:40:29Z">
       <class name="testScripts.loginPage.LoginTest">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="beforeSuite" is-config="true" duration-ms="228" started-at="2020-09-21T23:52:24Z" finished-at="2020-09-21T23:52:25Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="beforeSuite" is-config="true" duration-ms="224" started-at="2020-09-22T00:10:13Z" finished-at="2020-09-22T00:10:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="beforeTest" is-config="true" duration-ms="6311" started-at="2020-09-21T23:52:25Z" finished-at="2020-09-21T23:52:31Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="beforeTest" is-config="true" duration-ms="6416" started-at="2020-09-22T00:10:13Z" finished-at="2020-09-22T00:10:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="beforeClass" is-config="true" duration-ms="4136" started-at="2020-09-21T23:52:31Z" finished-at="2020-09-21T23:52:35Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="beforeClass" is-config="true" duration-ms="3263" started-at="2020-09-22T00:10:20Z" finished-at="2020-09-22T00:10:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-21T23:52:36Z" finished-at="2020-09-21T23:52:36Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-09-22T00:10:24Z" finished-at="2020-09-22T00:10:24Z">
           <params>
             <param index="0">
               <value>
@@ -57,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="loginTestWithCredentials" duration-ms="4223" started-at="2020-09-21T23:52:36Z" data-provider="testData" finished-at="2020-09-21T23:52:40Z">
+        <test-method status="PASS" signature="loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="loginTestWithCredentials" duration-ms="4131" started-at="2020-09-22T00:10:24Z" data-provider="testData" finished-at="2020-09-22T00:10:28Z">
           <params>
             <param index="0">
               <value>
@@ -76,23 +49,20 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[loginTestWithCredentials Test Passed..]]>
-            </line>
           </reporter-output>
         </test-method> <!-- loginTestWithCredentials -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="afterMethod" is-config="true" duration-ms="350" started-at="2020-09-21T23:52:40Z" finished-at="2020-09-21T23:52:40Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="afterMethod" is-config="true" duration-ms="325" started-at="2020-09-22T00:10:28Z" finished-at="2020-09-22T00:10:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTestWithCredentials status=SUCCESS method=LoginTest.loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@6ea12c19] output=loginTestWithCredentials Test Passed..]]]>
+                <![CDATA[[TestResult name=loginTestWithCredentials status=SUCCESS method=LoginTest.loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@5cc7c2a6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-09-21T23:52:40Z" finished-at="2020-09-21T23:52:40Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-22T00:10:28Z" finished-at="2020-09-22T00:10:28Z">
           <params>
             <param index="0">
               <value>
@@ -103,7 +73,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="loginTestWithCredentials" duration-ms="1" started-at="2020-09-21T23:52:40Z" data-provider="testData" finished-at="2020-09-21T23:52:40Z">
+        <test-method status="SKIP" signature="loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="loginTestWithCredentials" duration-ms="1" started-at="2020-09-22T00:10:28Z" data-provider="testData" finished-at="2020-09-22T00:10:28Z">
           <params>
             <param index="0">
               <value>
@@ -127,7 +97,7 @@
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Run mode for this set of data is marked N
-	at testScripts.loginPage.LoginTest.loginTestWithCredentials(LoginTest.java:50)
+	at testScripts.loginPage.LoginTest.loginTestWithCredentials(LoginTest.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -156,23 +126,20 @@
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
-            <line>
-              <![CDATA[loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N]]>
-            </line>
           </reporter-output>
         </test-method> <!-- loginTestWithCredentials -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="afterMethod" is-config="true" duration-ms="125" started-at="2020-09-21T23:52:40Z" finished-at="2020-09-21T23:52:40Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="afterMethod" is-config="true" duration-ms="91" started-at="2020-09-22T00:10:28Z" finished-at="2020-09-22T00:10:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTestWithCredentials status=SKIP method=LoginTest.loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@6ea12c19] output=loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N]]]>
+                <![CDATA[[TestResult name=loginTestWithCredentials status=SKIP method=LoginTest.loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@5cc7c2a6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-21T23:52:40Z" finished-at="2020-09-21T23:52:40Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-22T00:10:28Z" finished-at="2020-09-22T00:10:28Z">
           <params>
             <param index="0">
               <value>
@@ -183,7 +150,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="loginTestWithCredentials" duration-ms="1" started-at="2020-09-21T23:52:40Z" data-provider="testData" finished-at="2020-09-21T23:52:40Z">
+        <test-method status="SKIP" signature="loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="loginTestWithCredentials" duration-ms="0" started-at="2020-09-22T00:10:28Z" data-provider="testData" finished-at="2020-09-22T00:10:28Z">
           <params>
             <param index="0">
               <value>
@@ -207,7 +174,7 @@
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Run mode for this set of data is marked N
-	at testScripts.loginPage.LoginTest.loginTestWithCredentials(LoginTest.java:50)
+	at testScripts.loginPage.LoginTest.loginTestWithCredentials(LoginTest.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -236,34 +203,20 @@
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
-            <line>
-              <![CDATA[loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N]]>
-            </line>
           </reporter-output>
         </test-method> <!-- loginTestWithCredentials -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="afterMethod" is-config="true" duration-ms="60" started-at="2020-09-21T23:52:40Z" finished-at="2020-09-21T23:52:41Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="afterMethod" is-config="true" duration-ms="57" started-at="2020-09-22T00:10:28Z" finished-at="2020-09-22T00:10:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTestWithCredentials status=SKIP method=LoginTest.loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@6ea12c19] output=loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N]]]>
+                <![CDATA[[TestResult name=loginTestWithCredentials status=SKIP method=LoginTest.loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@5cc7c2a6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-09-21T23:52:41Z" finished-at="2020-09-21T23:52:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[public void testScripts.loginPage.LoginTest.loginTestWithCredentials(java.lang.String,java.lang.String,java.lang.String)]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="loginTestWithCredentials" duration-ms="1" started-at="2020-09-21T23:52:41Z" data-provider="testData" finished-at="2020-09-21T23:52:41Z">
+        <test-method status="SKIP" signature="loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="loginTestWithCredentials" duration-ms="1" started-at="2020-09-22T00:10:28Z" data-provider="testData" finished-at="2020-09-22T00:10:28Z">
           <params>
             <param index="0">
               <value>
@@ -287,7 +240,7 @@
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Run mode for this set of data is marked N
-	at testScripts.loginPage.LoginTest.loginTestWithCredentials(LoginTest.java:50)
+	at testScripts.loginPage.LoginTest.loginTestWithCredentials(LoginTest.java:51)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -316,27 +269,35 @@
             </full-stacktrace>
           </exception> <!-- org.testng.SkipException -->
           <reporter-output>
-            <line>
-              <![CDATA[loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N]]>
-            </line>
           </reporter-output>
         </test-method> <!-- loginTestWithCredentials -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="afterMethod" is-config="true" duration-ms="68" started-at="2020-09-21T23:52:41Z" finished-at="2020-09-21T23:52:41Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-09-22T00:10:28Z" finished-at="2020-09-22T00:10:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTestWithCredentials status=SKIP method=LoginTest.loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@6ea12c19] output=loginTestWithCredentials Test Skipped..org.testng.SkipException: Run mode for this set of data is marked N]]]>
+                <![CDATA[public void testScripts.loginPage.LoginTest.loginTestWithCredentials(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="afterMethod" is-config="true" duration-ms="52" started-at="2020-09-22T00:10:28Z" finished-at="2020-09-22T00:10:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginTestWithCredentials status=SKIP method=LoginTest.loginTestWithCredentials(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testScripts.loginPage.LoginTest@5cc7c2a6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testScripts.loginPage.LoginTest@6ea12c19]" name="afterTest" is-config="true" duration-ms="1023" started-at="2020-09-21T23:52:41Z" finished-at="2020-09-21T23:52:42Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testScripts.loginPage.LoginTest@5cc7c2a6]" name="afterTest" is-config="true" duration-ms="659" started-at="2020-09-22T00:10:28Z" finished-at="2020-09-22T00:10:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- testScripts.loginPage.LoginTest -->
-    </test> <!-- LoginTest -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
