@@ -3445,3 +3445,34 @@ Session ID: 334e10bd0b337314a7608d2ae8672a12
 2020-09-22 00:09:370 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
 2020-09-22 00:09:423 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
 2020-09-22 00:09:425 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 01:09:372 INFO  TestBase :129 - Initialize Web driver: 1988644427
+2020-09-22 01:09:375 INFO  WaitHelper :39 - Implicit Wait has been set to: 120
+2020-09-22 01:09:385 INFO  WaitHelper :49 - waiting for page to load: 100
+2020-09-22 01:09:665 INFO  TestBase :172 - excel location D:\Guru99-CucumberBDD/resources/configFile/TestData.xlsx
+2020-09-22 01:09:310 INFO  ExcelHelper :50 - number of active rows are: 4----number of active columns in row: 3
+2020-09-22 01:09:330 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 01:09:434 INFO  VerificationHelper :26 - element is displayed Demo Site
+2020-09-22 01:09:460 INFO  AssertionHelper :13 - verify text with Demo Site and Demo Site
+2020-09-22 01:09:462 INFO  LoginPage :65 - user id entered..
+2020-09-22 01:09:566 INFO  LoginPage :71 - password entered..
+2020-09-22 01:09:645 INFO  LoginPage :77 - login button clicked..
+2020-09-22 01:09:284 INFO  AlertHelper :68 - alert not present: null
+2020-09-22 01:09:322 INFO  JavaScriptHelper :75 - scroll to element and click element: Log out
+2020-09-22 01:09:339 INFO  JavaScriptHelper :66 - scroll to element: Log out
+2020-09-22 01:09:110 INFO  LoginPage :123 - clicked on logout link
+2020-09-22 01:09:113 INFO  AlertHelper :63 - alert is present
+2020-09-22 01:09:116 INFO  AlertHelper :25 - switched to alert: org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert@503d56b5
+2020-09-22 01:09:120 INFO  AlertHelper :25 - switched to alert: org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert@72bca894
+2020-09-22 01:09:125 INFO  AlertHelper :52 - alert text is: You Have Succesfully Logged Out!!
+2020-09-22 01:09:127 INFO  AlertHelper :25 - switched to alert: org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert@433ffad1
+2020-09-22 01:09:134 INFO  AlertHelper :34 - accept the alert
+2020-09-22 01:09:482 INFO  WaitHelper :138 - waiting for :[[ChromeDriver: chrome on WINDOWS (66ac52bd10a6d500c9d83966cf135d18)] -> xpath: //a[text()='Demo Site']] for :200 seconds
+2020-09-22 01:09:531 INFO  WaitHelper :141 - element is visible now
+2020-09-22 01:09:533 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 01:09:805 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 01:09:810 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 01:09:888 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 01:09:889 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 01:09:935 INFO  TestBase :68 - **************loginTestWithCredentialsStarted***************
+2020-09-22 01:09:937 INFO  TestBase :86 - **************loginTestWithCredentialsFinished***************
+2020-09-22 01:09:977 INFO  TestBase :93 - chrome browser closed..
